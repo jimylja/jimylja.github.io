@@ -1080,6 +1080,20 @@
     div#social li a.dribbble {background: url(../images/socialicons.png) 0 -300px}
     div#social li a.dribbble:hover {background: url(../images/socialicons.png) -60px -300px}
 
+    div#social li a.git {
+        background: url(../images/git-gray.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    div#social li a.git:hover {
+        background: url(../images/git.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
     div#action {
         position: absolute;
         right: -60px;
@@ -1161,6 +1175,7 @@
 
     .isotope-item {
         z-index: 2;
+        height: 300px;
     }
 
     .isotope-hidden.isotope-item {
@@ -2413,4 +2428,8 @@
         line-height: 30px;
     }
 
+}
+
+.image-field .description {
+    display: block;
 }
