@@ -1094,6 +1094,22 @@
         background-position: center;
     }
 
+    div#social li a.linkedin {
+        background: url(../images/linkedin-gray.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    div#social li a.linkedin:hover {
+        background: url(../images/linkedin.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+
     div#action {
         position: absolute;
         right: -60px;
