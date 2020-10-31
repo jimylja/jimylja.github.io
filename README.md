@@ -1,1 +1,1 @@
-# jimylja.github.io - html portfolio page
+# jimylja.github.io
